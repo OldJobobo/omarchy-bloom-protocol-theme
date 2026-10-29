@@ -1,7 +1,18 @@
 {
   "source_set": "Bloom Protocol / direction v3 / safe-1610 (HUD inside the 16:10 cover crop)",
   "source_root": "../bloom-protocol-workbench",
-  "copy_policy": "Exact source bytes, following source symlinks; no image edits or re-encoding.",
+  "copy_policy": "Stills retain exact source bytes, following source symlinks; no image edits. Intros are quality-targeted H.264 re-encodes; source_sha256 identifies each original and sha256 identifies the shipped encode.",
+  "intro_encoding": {
+    "encoder": "libx264",
+    "preset": "slow",
+    "pixel_format": "yuv420p",
+    "movflags": "+faststart",
+    "resolution": [2560, 1440],
+    "fps": 30,
+    "audio": false,
+    "quality_target": "Full-clip mean VMAF >= 95 against the source; CRF 22, reduced to 21 where needed. Grain retained without denoising. Lossy, not pixel-identical.",
+    "command": "ffmpeg -i SOURCE -map 0:v:0 -an -c:v libx264 -preset slow -crf CRF -pix_fmt yuv420p -threads 6 -movflags +faststart OUTPUT"
+  },
   "count": 9,
   "files": [
     {
@@ -109,7 +120,10 @@
       "filename": "intros/01-dead-channel.mp4",
       "for": "01-dead-channel.png",
       "source": "upscale-rebuild/direction-v3/safe-1610/intros/01-dead-channel/intro/01-dead-channel.mp4",
-      "sha256": "8accf88a0af5f3611010b54eab8f04fe6620e294c7a482d5322dd35615bb8816",
+      "source_sha256": "8accf88a0af5f3611010b54eab8f04fe6620e294c7a482d5322dd35615bb8816",
+      "sha256": "97b6d1680ab5f246ac65ac0fcc4a2fd9fa77ff23a404d31bde9ce9d8742b49f3",
+      "crf": 22,
+      "vmaf_mean": 96.623999,
       "format": "h264 yuv420p 2560x1440 30fps 7.3s no audio",
       "note": "Omarchy background intro; cold open, last frames equal the wallpaper. Built by rebuild-scripts/bloom_intro_01.py; pass 3 + safe-1610 (readouts and labels land inside the 16:10 cover crop), 2026-10-22."
     },
@@ -117,7 +131,10 @@
       "filename": "intros/02-ghost-transit.mp4",
       "for": "02-ghost-transit.png",
       "source": "upscale-rebuild/direction-v3/safe-1610/intros/02-ghost-transit/intro/02-ghost-transit.mp4",
-      "sha256": "9fe84fcc3e576268803463e86f54e5a25b351cab42551caf3c45b884b996874b",
+      "source_sha256": "9fe84fcc3e576268803463e86f54e5a25b351cab42551caf3c45b884b996874b",
+      "sha256": "ec1fe747c4f45c4f914736a5d6085d1257863b9aad57b51b63dec81a19760426",
+      "crf": 22,
+      "vmaf_mean": 95.136345,
       "format": "h264 yuv420p 2560x1440 30fps 6.8s no audio",
       "note": "Omarchy background intro; cold open, last frames equal the wallpaper. Built by rebuild-scripts/bloom_intros_v3.py; pass 3 + safe-1610 (readouts and labels land inside the 16:10 cover crop), 2026-10-22."
     },
@@ -125,7 +142,10 @@
       "filename": "intros/03-root-access.mp4",
       "for": "03-root-access.png",
       "source": "upscale-rebuild/direction-v3/safe-1610/intros/03-root-access/intro/03-root-access.mp4",
-      "sha256": "82b2fd6b5bb2343b43870b7adedc82cb70482bbaabb642795d71ce10e21d6a77",
+      "source_sha256": "82b2fd6b5bb2343b43870b7adedc82cb70482bbaabb642795d71ce10e21d6a77",
+      "sha256": "e2085990d5add4faf4043f51c1b38464d27c0e6dc9029d52550d16964d243a5b",
+      "crf": 22,
+      "vmaf_mean": 95.208504,
       "format": "h264 yuv420p 2560x1440 30fps 6.6s no audio",
       "note": "Omarchy background intro; cold open, last frames equal the wallpaper. Built by rebuild-scripts/bloom_intros_v3.py; pass 3 + safe-1610 (readouts and labels land inside the 16:10 cover crop), 2026-10-22."
     },
@@ -133,7 +153,10 @@
       "filename": "intros/04-return-signal.mp4",
       "for": "04-return-signal.png",
       "source": "upscale-rebuild/direction-v3/safe-1610/intros/04-return-signal/intro/04-return-signal.mp4",
-      "sha256": "1e94aef0af9446c41d23a379ff265b8a968034b2ede2b4e3caea9a1b951dfbfe",
+      "source_sha256": "1e94aef0af9446c41d23a379ff265b8a968034b2ede2b4e3caea9a1b951dfbfe",
+      "sha256": "5e8a037a8fd66c04ede1ab646d14cccf318b0680d84e52f24e93e15991720533",
+      "crf": 22,
+      "vmaf_mean": 95.491533,
       "format": "h264 yuv420p 2560x1440 30fps 7.0s no audio",
       "note": "Omarchy background intro; cold open, last frames equal the wallpaper. Built by rebuild-scripts/bloom_intros_v3.py; pass 3 + safe-1610 (readouts and labels land inside the 16:10 cover crop), 2026-10-22."
     },
@@ -141,7 +164,10 @@
       "filename": "intros/05-afterimage-dark.mp4",
       "for": "05-afterimage-dark.png",
       "source": "upscale-rebuild/direction-v3/safe-1610/intros/05-afterimage-dark/intro/05-afterimage-dark.mp4",
-      "sha256": "7a083a02346610ebfdcb21164cf03fe3c226d944b4aa687524e1f30662f28a83",
+      "source_sha256": "7a083a02346610ebfdcb21164cf03fe3c226d944b4aa687524e1f30662f28a83",
+      "sha256": "37565273444a704d9616d11a945648aedaf0e89ece27316a54cadfbc7d37cb29",
+      "crf": 21,
+      "vmaf_mean": 95.362391,
       "format": "h264 yuv420p 2560x1440 30fps 6.7s no audio",
       "note": "Omarchy background intro; cold open, last frames equal the wallpaper. Built by rebuild-scripts/bloom_intros_v3.py; pass 3 + safe-1610 (readouts and labels land inside the 16:10 cover crop), 2026-10-22."
     },
@@ -149,7 +175,10 @@
       "filename": "intros/06-quiet-carrier.mp4",
       "for": "06-quiet-carrier.png",
       "source": "upscale-rebuild/direction-v3/safe-1610/intros/06-quiet-carrier/intro/06-quiet-carrier.mp4",
-      "sha256": "32e83ba75a7d6c8db8fc0305dacdce2249385ea70d944da87a539f7fee2061af",
+      "source_sha256": "32e83ba75a7d6c8db8fc0305dacdce2249385ea70d944da87a539f7fee2061af",
+      "sha256": "911f520df54b4739e10cc24f41fa62ff138d07be2c91729ae2e35f724020a853",
+      "crf": 21,
+      "vmaf_mean": 95.477853,
       "format": "h264 yuv420p 2560x1440 30fps 7.7s no audio",
       "note": "Omarchy background intro; cold open, last frames equal the wallpaper. Built by rebuild-scripts/bloom_intros_v3.py; pass 3 + safe-1610 (readouts and labels land inside the 16:10 cover crop), 2026-10-22."
     },
@@ -157,7 +186,10 @@
       "filename": "intros/07-second-heart.mp4",
       "for": "07-second-heart.png",
       "source": "upscale-rebuild/direction-v3/safe-1610/intros/07-second-heart/intro/07-second-heart.mp4",
-      "sha256": "6b53d2254f7548b237c6e4a160977cdb12b90a24e9e4a344a67c56951f988e99",
+      "source_sha256": "6b53d2254f7548b237c6e4a160977cdb12b90a24e9e4a344a67c56951f988e99",
+      "sha256": "5b4563793ae1ecaf958e81f2c06fdba172befb5d9506b152d4424f67597911bf",
+      "crf": 21,
+      "vmaf_mean": 96.148543,
       "format": "h264 yuv420p 2560x1440 30fps 6.6s no audio",
       "note": "Omarchy background intro; cold open, last frames equal the wallpaper. Built by rebuild-scripts/bloom_intros_v3.py; pass 3 + safe-1610 (readouts and labels land inside the 16:10 cover crop), 2026-10-22."
     },
@@ -165,7 +197,10 @@
       "filename": "intros/08-free-bloom.mp4",
       "for": "08-free-bloom.png",
       "source": "upscale-rebuild/direction-v3/safe-1610/intros/08-free-bloom/intro/08-free-bloom.mp4",
-      "sha256": "492702e1e0a76b9d9da807d12260a270ef9256cd1b08f335fa4af0e24a9e7bae",
+      "source_sha256": "492702e1e0a76b9d9da807d12260a270ef9256cd1b08f335fa4af0e24a9e7bae",
+      "sha256": "fd8445d1a4915eb377d25b1e1d1a3d74f44249caec02600e94a653e000bfa40d",
+      "crf": 22,
+      "vmaf_mean": 95.547915,
       "format": "h264 yuv420p 2560x1440 30fps 6.6s no audio",
       "note": "Omarchy background intro; cold open, last frames equal the wallpaper. Built by rebuild-scripts/bloom_intros_v3.py; pass 3 + safe-1610 (readouts and labels land inside the 16:10 cover crop), 2026-10-22."
     },
@@ -173,7 +208,10 @@
       "filename": "intros/09-spatial-archive.mp4",
       "for": "09-spatial-archive.png",
       "source": "upscale-rebuild/direction-v3/safe-1610/intros/09-spatial-archive/intro/09-spatial-archive.mp4",
-      "sha256": "9dd6b13adbe4ebd634b82224122668c32a99752832390907ec9ccc1b81ca28f1",
+      "source_sha256": "9dd6b13adbe4ebd634b82224122668c32a99752832390907ec9ccc1b81ca28f1",
+      "sha256": "696e7cc9629a8ceca9dd569f56d0a182bac56939f9bca18e9011d1d382e0896d",
+      "crf": 22,
+      "vmaf_mean": 95.850255,
       "format": "h264 yuv420p 2560x1440 30fps 6.7s no audio",
       "note": "Omarchy background intro; last frames equal the wallpaper. Built by rebuild-scripts/bloom_09_intro2.py. Safe-1610 re-post (HUD inside the 16:10 cover crop), 2026-10-22."
     }

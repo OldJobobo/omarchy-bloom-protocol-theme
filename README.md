@@ -30,7 +30,7 @@ To select it again later:
 omarchy theme set bloom-protocol
 ```
 
-**Size:** allow roughly 650 MiB for the theme assets, including all nine wallpaper intros.
+**Size:** current theme files occupy roughly 570 MiB, including all nine wallpaper intros. Git downloads and disk usage can be larger because earlier asset versions remain in repository history.
 
 ## Wallpapers
 
@@ -42,7 +42,15 @@ Nine near-4K stills, each with a matching animated intro. Eight are 3837×2159; 
 
 Every still has a short, silent intro in `backgrounds/intros/`. The clips run for roughly **6.6–7.7 seconds**, at **2560×1440 / 30 fps**, and lead into the matching wallpaper.
 
-Playback requires an Omarchy build with wallpaper-intro support enabled. On versions without that feature, the still wallpapers remain available. The intros account for approximately **502 MiB** of the theme assets.
+Playback requires an Omarchy build with wallpaper-intro support enabled. On versions without that feature, the still wallpapers remain available. The intros account for approximately **430 MiB** of the theme assets.
+
+The intros are optimized for quality while retaining their intentional glitch/static texture:
+
+- **502 → 430 MiB:** roughly **72 MiB / 14.3% smaller** overall.
+- **H.264 / fast-start MP4:** resolution, frame rate, frame counts, and timing are unchanged.
+- **Quality checked:** every clip scores at least **95 mean VMAF** against its original. Compression is lossy; no denoising was applied.
+
+Encoding settings, measured scores, and original and shipped hashes are recorded in `backgrounds/SOURCES.json`.
 
 ## Optional Cava theme
 
