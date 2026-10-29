@@ -1,0 +1,36 @@
+system: "base24"
+name: "Bloom Protocol"
+slug: "bloom-protocol"
+author: "OldJobobo"
+variant: "dark"
+
+palette:
+  # --- dark archive / bone ink ramp ---
+  base00: "#0B0E1C" # Archive Night   - default background
+  base01: "#172033" # Relay Housing   - lighter background
+  base02: "#304669" # Cobalt Glass    - selection background
+  base03: "#68758D" # Carrier Haze    - comments / muted text
+  base04: "#A9A7A9" # Rack Silver     - dark foreground
+  base05: "#E8DAC7" # Bone Ink        - default foreground
+  base06: "#F5E9DA" # Petal Ivory     - light foreground
+  base07: "#FFF3E7" # Pollen Light    - brightest foreground
+
+  # --- living signal / limited-ink accents ---
+  base08: "#CC234B" # Fault Crimson   - red / error
+  base09: "#9B9692" # Spent Filament  - orange slot / utility gray
+  base0A: "#B76AFF" # Neon Orchid     - yellow slot / warning
+  base0B: "#B6D572" # Acid Leaf       - green / success
+  base0C: "#949CA6" # Quiet Carrier   - cyan slot / quiet data
+  base0D: "#739FD2" # Cobalt Relay    - blue / focus
+  base0E: "#FA40A9" # Bloom Signal    - purple slot / signal pink
+  base0F: "#8B858C" # Root Ash        - brown / special
+
+  # --- base24 extension ---
+  base10: "#080A14" # Sealed Vault    - darker background
+  base11: "#05070F" # Dead Channel    - darkest background
+  base12: "#EF528E" # Raspberry Pulse - bright red
+  base13: "#E1ACFF" # Orchid Flare    - bright orange / yellow slot
+  base14: "#DEEFA7" # New Growth      - bright green
+  base15: "#BEC1C5" # Signal Silver   - bright cyan
+  base16: "#9BBDEC" # Return Signal   - bright blue
+  base17: "#FF78C8" # Bloom Flare     - bright purple / pink

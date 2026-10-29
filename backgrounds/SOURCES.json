@@ -1,0 +1,181 @@
+{
+  "source_set": "Bloom Protocol / direction v3 / safe-1610 (HUD inside the 16:10 cover crop)",
+  "source_root": "../bloom-protocol-workbench",
+  "copy_policy": "Exact source bytes, following source symlinks; no image edits or re-encoding.",
+  "count": 9,
+  "files": [
+    {
+      "filename": "01-dead-channel.png",
+      "title": "Dead Channel",
+      "source": "upscale-rebuild/direction-v3/safe-1610/stills/01-dead-channel/01-dead-channel-v3-safe.png",
+      "sha256": "6294703e57c61ad43b540f06058f3c36ac3685e7efb1cc949e0c463a8f09d4f4",
+      "dimensions": [
+        3837,
+        2159
+      ],
+      "note": "direction-v3 still with the HUD clamped into the 16:10 safe area (bloom_safe_area.py), 2026-10-22; 01 unchanged in layout but re-rendered"
+    },
+    {
+      "filename": "02-ghost-transit.png",
+      "title": "Ghost Transit",
+      "source": "upscale-rebuild/direction-v3/safe-1610/stills/02-ghost-transit/02-ghost-transit-v3-safe.png",
+      "sha256": "b1625e6fba391c91bf81234c7f4908e5e665cd94582121823c3424d77e5c4b87",
+      "dimensions": [
+        3837,
+        2159
+      ],
+      "note": "direction-v3 still with the HUD clamped into the 16:10 safe area (bloom_safe_area.py), 2026-10-22; 01 unchanged in layout but re-rendered"
+    },
+    {
+      "filename": "03-root-access.png",
+      "title": "Root Access",
+      "source": "upscale-rebuild/direction-v3/safe-1610/stills/03-root-access/03-root-access-v3-safe.png",
+      "sha256": "f7eadb8f34f1dbbda1746bddd4c5dd70da1f3efd247116fceae77d96ed26c1c0",
+      "dimensions": [
+        3837,
+        2159
+      ],
+      "note": "direction-v3 still with the HUD clamped into the 16:10 safe area (bloom_safe_area.py), 2026-10-22; 01 unchanged in layout but re-rendered"
+    },
+    {
+      "filename": "04-return-signal.png",
+      "title": "Return Signal",
+      "source": "upscale-rebuild/direction-v3/safe-1610/stills/04-return-signal/04-return-signal-v3-safe.png",
+      "sha256": "bc8c0d4eb2cb4e00bc9d4d426c6076c0de03b58c68f6f7ad30b7d17714b55128",
+      "dimensions": [
+        3837,
+        2159
+      ],
+      "note": "direction-v3 still with the HUD clamped into the 16:10 safe area (bloom_safe_area.py), 2026-10-22; 01 unchanged in layout but re-rendered"
+    },
+    {
+      "filename": "05-afterimage-dark.png",
+      "title": "Afterimage Dark",
+      "source": "upscale-rebuild/direction-v3/safe-1610/stills/05-afterimage-dark/05-afterimage-dark-v3-safe.png",
+      "sha256": "1a8b04a56235a1cb4b957d903f92ff6dc0c3639dcff02f9e135ea74c36ac702c",
+      "dimensions": [
+        3837,
+        2159
+      ],
+      "note": "direction-v3 still with the HUD clamped into the 16:10 safe area (bloom_safe_area.py), 2026-10-22; 01 unchanged in layout but re-rendered"
+    },
+    {
+      "filename": "06-quiet-carrier.png",
+      "title": "Quiet Carrier",
+      "source": "upscale-rebuild/direction-v3/safe-1610/stills/06-quiet-carrier/06-quiet-carrier-v3-safe.png",
+      "sha256": "c07b8dfd2e1997930bb83056bbb4f8d2235c8b7d6fe5fc5cd54a25221028e1fa",
+      "dimensions": [
+        3837,
+        2159
+      ],
+      "note": "direction-v3 still with the HUD clamped into the 16:10 safe area (bloom_safe_area.py), 2026-10-22; 01 unchanged in layout but re-rendered"
+    },
+    {
+      "filename": "07-second-heart.png",
+      "title": "Second Heart",
+      "source": "upscale-rebuild/direction-v3/safe-1610/stills/07-second-heart/07-second-heart-v3-safe.png",
+      "sha256": "950c91dbcdacebf9fa13fb69889f8f5ecbb6e92e3daeafd39f9fd8f239604469",
+      "dimensions": [
+        3837,
+        2159
+      ],
+      "note": "direction-v3 still with the HUD clamped into the 16:10 safe area (bloom_safe_area.py), 2026-10-22; 01 unchanged in layout but re-rendered"
+    },
+    {
+      "filename": "08-free-bloom.png",
+      "title": "Free Bloom",
+      "source": "upscale-rebuild/direction-v3/safe-1610/stills/08-free-bloom/08-free-bloom-v3-safe.png",
+      "sha256": "5afa2e8c71fd5571ede090bbe9fae18965684cd6f51fcf86df61197422f2ec44",
+      "dimensions": [
+        3837,
+        2159
+      ],
+      "note": "direction-v3 still with the HUD clamped into the 16:10 safe area (bloom_safe_area.py), 2026-10-22; 01 unchanged in layout but re-rendered"
+    },
+    {
+      "filename": "09-spatial-archive.png",
+      "title": "Spatial Archive",
+      "source": "upscale-rebuild/direction-v3/safe-1610/stills/09-spatial-archive/09-spatial-archive-v3-safe.png",
+      "sha256": "2cd8bc6f57b52d47445a430ebf4ff446a4418cc36f47b59da0012201f7f4cccd",
+      "dimensions": [
+        3840,
+        2160
+      ],
+      "note": "direction-v3 still with the HUD clamped into the 16:10 safe area (bloom_safe_area.py), 2026-10-22; 01 unchanged in layout but re-rendered"
+    }
+  ],
+  "intros": [
+    {
+      "filename": "intros/01-dead-channel.mp4",
+      "for": "01-dead-channel.png",
+      "source": "upscale-rebuild/direction-v3/safe-1610/intros/01-dead-channel/intro/01-dead-channel.mp4",
+      "sha256": "8accf88a0af5f3611010b54eab8f04fe6620e294c7a482d5322dd35615bb8816",
+      "format": "h264 yuv420p 2560x1440 30fps 7.3s no audio",
+      "note": "Omarchy background intro; cold open, last frames equal the wallpaper. Built by rebuild-scripts/bloom_intro_01.py; pass 3 + safe-1610 (readouts and labels land inside the 16:10 cover crop), 2026-10-22."
+    },
+    {
+      "filename": "intros/02-ghost-transit.mp4",
+      "for": "02-ghost-transit.png",
+      "source": "upscale-rebuild/direction-v3/safe-1610/intros/02-ghost-transit/intro/02-ghost-transit.mp4",
+      "sha256": "9fe84fcc3e576268803463e86f54e5a25b351cab42551caf3c45b884b996874b",
+      "format": "h264 yuv420p 2560x1440 30fps 6.8s no audio",
+      "note": "Omarchy background intro; cold open, last frames equal the wallpaper. Built by rebuild-scripts/bloom_intros_v3.py; pass 3 + safe-1610 (readouts and labels land inside the 16:10 cover crop), 2026-10-22."
+    },
+    {
+      "filename": "intros/03-root-access.mp4",
+      "for": "03-root-access.png",
+      "source": "upscale-rebuild/direction-v3/safe-1610/intros/03-root-access/intro/03-root-access.mp4",
+      "sha256": "82b2fd6b5bb2343b43870b7adedc82cb70482bbaabb642795d71ce10e21d6a77",
+      "format": "h264 yuv420p 2560x1440 30fps 6.6s no audio",
+      "note": "Omarchy background intro; cold open, last frames equal the wallpaper. Built by rebuild-scripts/bloom_intros_v3.py; pass 3 + safe-1610 (readouts and labels land inside the 16:10 cover crop), 2026-10-22."
+    },
+    {
+      "filename": "intros/04-return-signal.mp4",
+      "for": "04-return-signal.png",
+      "source": "upscale-rebuild/direction-v3/safe-1610/intros/04-return-signal/intro/04-return-signal.mp4",
+      "sha256": "1e94aef0af9446c41d23a379ff265b8a968034b2ede2b4e3caea9a1b951dfbfe",
+      "format": "h264 yuv420p 2560x1440 30fps 7.0s no audio",
+      "note": "Omarchy background intro; cold open, last frames equal the wallpaper. Built by rebuild-scripts/bloom_intros_v3.py; pass 3 + safe-1610 (readouts and labels land inside the 16:10 cover crop), 2026-10-22."
+    },
+    {
+      "filename": "intros/05-afterimage-dark.mp4",
+      "for": "05-afterimage-dark.png",
+      "source": "upscale-rebuild/direction-v3/safe-1610/intros/05-afterimage-dark/intro/05-afterimage-dark.mp4",
+      "sha256": "7a083a02346610ebfdcb21164cf03fe3c226d944b4aa687524e1f30662f28a83",
+      "format": "h264 yuv420p 2560x1440 30fps 6.7s no audio",
+      "note": "Omarchy background intro; cold open, last frames equal the wallpaper. Built by rebuild-scripts/bloom_intros_v3.py; pass 3 + safe-1610 (readouts and labels land inside the 16:10 cover crop), 2026-10-22."
+    },
+    {
+      "filename": "intros/06-quiet-carrier.mp4",
+      "for": "06-quiet-carrier.png",
+      "source": "upscale-rebuild/direction-v3/safe-1610/intros/06-quiet-carrier/intro/06-quiet-carrier.mp4",
+      "sha256": "32e83ba75a7d6c8db8fc0305dacdce2249385ea70d944da87a539f7fee2061af",
+      "format": "h264 yuv420p 2560x1440 30fps 7.7s no audio",
+      "note": "Omarchy background intro; cold open, last frames equal the wallpaper. Built by rebuild-scripts/bloom_intros_v3.py; pass 3 + safe-1610 (readouts and labels land inside the 16:10 cover crop), 2026-10-22."
+    },
+    {
+      "filename": "intros/07-second-heart.mp4",
+      "for": "07-second-heart.png",
+      "source": "upscale-rebuild/direction-v3/safe-1610/intros/07-second-heart/intro/07-second-heart.mp4",
+      "sha256": "6b53d2254f7548b237c6e4a160977cdb12b90a24e9e4a344a67c56951f988e99",
+      "format": "h264 yuv420p 2560x1440 30fps 6.6s no audio",
+      "note": "Omarchy background intro; cold open, last frames equal the wallpaper. Built by rebuild-scripts/bloom_intros_v3.py; pass 3 + safe-1610 (readouts and labels land inside the 16:10 cover crop), 2026-10-22."
+    },
+    {
+      "filename": "intros/08-free-bloom.mp4",
+      "for": "08-free-bloom.png",
+      "source": "upscale-rebuild/direction-v3/safe-1610/intros/08-free-bloom/intro/08-free-bloom.mp4",
+      "sha256": "492702e1e0a76b9d9da807d12260a270ef9256cd1b08f335fa4af0e24a9e7bae",
+      "format": "h264 yuv420p 2560x1440 30fps 6.6s no audio",
+      "note": "Omarchy background intro; cold open, last frames equal the wallpaper. Built by rebuild-scripts/bloom_intros_v3.py; pass 3 + safe-1610 (readouts and labels land inside the 16:10 cover crop), 2026-10-22."
+    },
+    {
+      "filename": "intros/09-spatial-archive.mp4",
+      "for": "09-spatial-archive.png",
+      "source": "upscale-rebuild/direction-v3/safe-1610/intros/09-spatial-archive/intro/09-spatial-archive.mp4",
+      "sha256": "9dd6b13adbe4ebd634b82224122668c32a99752832390907ec9ccc1b81ca28f1",
+      "format": "h264 yuv420p 2560x1440 30fps 6.7s no audio",
+      "note": "Omarchy background intro; last frames equal the wallpaper. Built by rebuild-scripts/bloom_09_intro2.py. Safe-1610 re-post (HUD inside the 16:10 cover crop), 2026-10-22."
+    }
+  ]
+}

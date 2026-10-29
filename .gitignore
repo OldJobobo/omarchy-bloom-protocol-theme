@@ -1,0 +1,9 @@
+# Application caches, logs, sockets, and editor scratch files.
+__pycache__/
+*.py[cod]
+*.log
+*.sock
+*.swp
+*.swo
+*~
+.DS_Store

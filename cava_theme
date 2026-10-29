@@ -1,0 +1,11 @@
+# Bloom Protocol / Cava color override for the optional THPM integration.
+# Cobalt carries the body; peaks bloom into signal pink, not warning/error hues.
+# Keep the terminal's background and transparency; leave audio and bar settings alone.
+[color]
+background = 'default'
+foreground = '#739fd2'
+gradient = 1
+gradient_color_1 = '#466885'
+gradient_color_2 = '#739fd2'
+gradient_color_3 = '#fa40a9'
+gradient_color_4 = '#ff78c8'
